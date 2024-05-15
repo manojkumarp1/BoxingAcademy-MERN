@@ -1,0 +1,70 @@
+.Adminacademy {
+  text-align: center;
+}
+
+.Adminacademy-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Adminacademy-logo {
+    animation: Adminacademy-logo-spin infinite 20s linear;
+  }
+}
+
+.Adminacademy-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Adminacademy-link {
+  color: #61dafb;
+}
+
+@keyframes Adminacademy-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color:grey;
+}
+
+
+.container{
+  background-color: purple;
+  max-width: 100%;
+}
+.templateContainer .template_ContainerEnroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.templateContainer .template_ContainerEnroll .template1 {
+  background-color: rgb(209, 207, 207);
+  margin: 30px;
+  padding: 20px 20px;
+  flex-basis: calc(30% - 60px); /* Adjust the width as needed */
+}
+.templateContainer .template_ContainerEnroll .template1 .enrolledCourse {
+  background-color:red;
+  padding: 10px;
+  font-size: 15px;
+  margin-left:79%;
+  color: white;
+  border: black;
+  margin-bottom: 2%;
+  cursor: pointer;
+  }
